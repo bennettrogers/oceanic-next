@@ -1,36 +1,86 @@
+# JavaScript highlighting
+javaScript:                   'base05 . .'
 
-  # JavaScript highlighting
-javaScript:                 'base05 . .'
+javaScriptComment:            '' # Comment
+javaScriptLineComment:        '' # Comment
+javaScriptCommentTodo:        '' # Todo
+javaScriptSpecial:            '' # Special
+javaScriptStringS:            '' # String
+javaScriptStringD:            '' # String
+javaScriptCharacter:          '' # Character
+javaScriptSpecialCharacter:   '' # javaScriptSpecial
+javaScriptNumber:             'base09 . .'
+javaScriptConditional:        '' # Conditional
+javaScriptRepeat:             '' # Repeat
+javaScriptBranch:             '' # Conditional
+javaScriptOperator:           '' # Operator
+javaScriptType:               '' # Type
+javaScriptStatement:          '' # Statement
+javaScriptFunction:           '' # Function
+javaScriptBraces:             'base0C . .'
+javaScriptError:              '' # Error
+javaScriptParensError:        '' # Error
+javaScriptNull:               '' # Keyword
+javaScriptBoolean:            '' # Boolean
+javaScriptRegexpString:       '' # String
+javaScriptIdentifier:         '' # Identifier
+javaScriptLabel:              '' # Label
+javaScriptException:          '' # Exception
+javaScriptMessage:            '' # Keyword
+javaScriptGlobal:             '' # Keyword
+javaScriptMember:             '' # Keyword
+javaScriptDeprecated:         '' # Exception
+javaScriptReserved:           '' # Keyword
+javaScriptDebug:              '' # Debug
+javaScriptConstant:           '' # Label
 
-javaScriptComment:          '' # Comment
-javaScriptLineComment:      '' # Comment
-javaScriptCommentTodo:      '' # Todo
-javaScriptSpecial:          '' # Special
-javaScriptStringS:          '' # String
-javaScriptStringD:          '' # String
-javaScriptCharacter:        '' # Character
-javaScriptSpecialCharacter: '' # javaScriptSpecial
-javaScriptNumber:           'base09 . .'
-javaScriptConditional:      '' # Conditional
-javaScriptRepeat:           '' # Repeat
-javaScriptBranch:           '' # Conditional
-javaScriptOperator:         '' # Operator
-javaScriptType:             '' # Type
-javaScriptStatement:        '' # Statement
-javaScriptFunction:         '' # Function
-javaScriptBraces:           'base05 . .'
-javaScriptError:            '' # Error
-javaScriptParensError:      '' # Error
-javaScriptNull:             '' # Keyword
-javaScriptBoolean:          '' # Boolean
-javaScriptRegexpString:     '' # String
-javaScriptIdentifier:       '' # Identifier
-javaScriptLabel:            '' # Label
-javaScriptException:        '' # Exception
-javaScriptMessage:          '' # Keyword
-javaScriptGlobal:           '' # Keyword
-javaScriptMember:           '' # Keyword
-javaScriptDeprecated:       '' # Exception
-javaScriptReserved:         '' # Keyword
-javaScriptDebug:            '' # Debug
-javaScriptConstant:         '' # Label
+# Syntax regions from pangloss/javascript
+jsFuncCall:                   'base0D'
+jsTaggedTemplate:             ''
+jsUndefined:                  ''
+jsNull:                       'base09'
+jsFunction:                   ''
+jsClassMethodType:            ''
+jsArrowFunction:              ''
+jsFuncName:                   ''
+jsObjectFuncName:             ''
+jsFuncParens:                 'base0C'
+jsFuncBraces:                 ''
+jsClassBraces:                ''
+jsFuncArgCommas:              ''
+jsFuncArgs:                   'base09'
+jsGlobalObjects:              ''
+jsOpAssign:                   ''
+jsSpecial:                    ''
+jsParens:                     ''
+jsStyledTemplateTicks:        ''
+jsBraces:                     'base0C'
+jsBrackets:                   ''
+jsObjectKey:                  'base0B'
+jsFunctionKey:                ''
+jsFunctionVar:                ''
+jsBooleanTrue:                ''
+jsBooleanFalse:               ''
+jsClassKeyword:               ''
+jsExtendsKeyword:             ''
+jsTemplateBraces:             'base0C'
+jsGenerator:                  ''
+jsClassDefinition:            'base0A'
+jsDestructuringBlock:         ''
+jsDestructuringBraces:        ''
+
+jsDestructuringProperty:      ''
+jsDestructuringPropertyValue: ''
+
+jsReturn:                     'base0E'
+jsImport:                     'base0C'
+jsExport:                     'base0C'
+jsExportDefault:              'base0E'
+jsFrom:                       'base0C'
+jsStorageClass:               'base0E'
+jsThis:                       'base08 - i'
+jsSuper:                      'base08 - i'
+jsTernaryIfOperator:          'base0C'
+jsOperator:                   'base0C'
+jsRepeat:                     'base0E'
+jsNoise:                      'base0C'
