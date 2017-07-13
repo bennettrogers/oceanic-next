@@ -4,7 +4,7 @@
 " URL: 
 " Author: Mike Hartington
 " License: Apache
-" Last Change: 2017/03/24 13:37
+" Last Change: 2017/07/12 23:20
 " ===============================================================
 
 set background=dark
@@ -122,7 +122,27 @@ hi htmlArg guifg=#fac863 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTagName guifg=#d8dee9 ctermfg=253
 hi javaScript guifg=#c0c5ce ctermfg=251
 hi javaScriptNumber guifg=#f99157 ctermfg=209
-hi javaScriptBraces guifg=#c0c5ce ctermfg=251
+hi javaScriptBraces guifg=#62b3b2 ctermfg=73
+hi jsFuncCall guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsNull guifg=#f99157 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFuncParens guifg=#62b3b2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFuncArgs guifg=#f99157 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsBraces guifg=#62b3b2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsObjectKey guifg=#99c794 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsTemplateBraces guifg=#62b3b2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsClassDefinition guifg=#fac863 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsReturn guifg=#c594c5 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsImport guifg=#62b3b2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsExport guifg=#62b3b2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsExportDefault guifg=#c594c5 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFrom guifg=#62b3b2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsStorageClass guifg=#c594c5 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsThis guifg=#ec5f67 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi jsSuper guifg=#ec5f67 ctermfg=203 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi jsTernaryIfOperator guifg=#62b3b2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsOperator guifg=#62b3b2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsRepeat guifg=#c594c5 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsNoise guifg=#62b3b2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCode guifg=#99c794 ctermfg=114
 hi markdownCodeBlock guifg=#99c794 ctermfg=114
 hi markdownHeadingDelimiter guifg=#6699cc ctermfg=68
@@ -164,8 +184,10 @@ hi GitGutterChange guifg=#6699cc ctermfg=68 guibg=#343d46 ctermbg=237
 hi GitGutterDelete guifg=#ec5f67 ctermfg=203 guibg=#343d46 ctermbg=237
 hi GitGutterChangeDelete guifg=#c594c5 ctermfg=176 guibg=#343d46 ctermbg=237
 hi xmlTag guifg=#62b3b2 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi xmlTagName guifg=#c0c5ce ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlTagName guifg=#ec5f67 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlTagN guifg=#ec5f67 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlEndTag guifg=#62b3b2 ctermfg=73
+hi xmlAttrib guifg=#c594c5 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 let g:terminal_color_0 = "#1b2b34"
 let g:terminal_color_1 = "#ec5f67"
