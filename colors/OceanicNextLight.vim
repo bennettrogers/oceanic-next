@@ -4,7 +4,7 @@
 " URL: 
 " Author: Mike Hartington
 " License: Apache
-" Last Change: 2017/07/12 23:20
+" Last Change: 2017/07/13 10:23
 " ===============================================================
 
 set background=light
@@ -126,11 +126,15 @@ hi javaScriptBraces guifg=#5b9c90 ctermfg=72
 hi jsFuncCall guifg=#526f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsNull guifg=#b4713d ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFuncParens guifg=#5b9c90 ctermfg=72 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFuncBraces guifg=#5b9c90 ctermfg=72 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsClassBraces guifg=#5b9c90 ctermfg=72 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsModuleBraces guifg=#5b9c90 ctermfg=72 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFuncArgs guifg=#b4713d ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsBraces guifg=#5b9c90 ctermfg=72 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsObjectKey guifg=#869235 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsTemplateBraces guifg=#5b9c90 ctermfg=72 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassDefinition guifg=#a48c32 ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsDestructuringBraces guifg=#5b9c90 ctermfg=72 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsReturn guifg=#896a98 ctermfg=96 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsImport guifg=#5b9c90 ctermfg=72 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsExport guifg=#5b9c90 ctermfg=72 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
